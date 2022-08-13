@@ -45,7 +45,7 @@ jobs:
     steps:
     - uses: actions/checkout@v3
     - name: Login to Amazon ECR
-      id: login-ecr
+      id: test
       uses: aws-actions/amazon-ecr-login@v1
 
     - name: Build, tag, and push docker image to Amazon ECR
