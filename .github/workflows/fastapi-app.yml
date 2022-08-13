@@ -52,7 +52,7 @@ jobs:
         aws-region: us-east-2
 
     - name: Login to Amazon ECR
-      id: 818341956246.dkr.ecr.us-east-2.amazonaws.com
+      id: login-ecr
       uses: aws-actions/amazon-ecr-login@v1
 
     - name: Build, tag, and push docker image to Amazon ECR
